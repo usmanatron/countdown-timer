@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+  timer:
+    container_name: countdown.bookii
+    image: ctimer:latest
+    ports:
+      - 8080:8080
+    restart: always
+    environment:
+      COUNTDOWN_DESTINATION_TIME: 'Oct 6, 2019 at 10:05am (GMT)'
+      COUNTDOWN_DESTINATION_EVENT: 'my flight arrives in Karachi'

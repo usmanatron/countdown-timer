@@ -1,17 +1,19 @@
 <html>
     <head>
         <style>
-            .countdown-timer {
+            .countdown-timer, .tenor-gif-embed {
                 margin: auto;
                 text-align: center;
+                font-family: Helvetica;
             }
 
             h1 {
                 font-size: 80px;
+                margin-top: 5rem;
             }
 
             h2 {
-                font-size: 60px;
+                font-size: 40px;
             }
         </style>
         <script>
@@ -34,7 +36,9 @@
     <body>
         <div class="countdown-timer">
             <h1>Time until {{ .DestinationEvent }}</h1>
-            <h2 id="countdown"></h2>
+            <hr>
+            <h2 id="countdown"></h2>    
         </div>
+        <div class="tenor-gif-embed" data-postid="5249896" data-share-method="host" data-width="50%" data-aspect-ratio="1.25"><a href="https://tenor.com/view/airplane-pusheen-gif-5249896">Cute Plane GIF</a> from <a href="https://tenor.com/search/cat-gifs">Cat GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
     </body>
 </html>
