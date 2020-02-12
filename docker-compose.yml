@@ -8,5 +8,5 @@ services:
       - 8080:8080
     restart: always
     environment:
-      COUNTDOWN_DESTINATION_TIME: 'Oct 6, 2019 at 10:05am (GMT)'
-      COUNTDOWN_DESTINATION_EVENT: 'my flight arrives in Karachi'
+      COUNTDOWN_DESTINATION_TIME: 'Feb 27, 2020 at 02:35pm (GMT)'
+      COUNTDOWN_DESTINATION_EVENT: 'my Kii arrives in the UK'
