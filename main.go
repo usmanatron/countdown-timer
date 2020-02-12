@@ -26,5 +26,5 @@ func main() {
 		template.Execute(w, CountdownInfo{destinationTime, destinationEvent})
 	})
 
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":80", nil)
 }
