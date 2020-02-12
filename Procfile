@@ -1,1 +1,1 @@
-web: main
+web: countdown-timer
